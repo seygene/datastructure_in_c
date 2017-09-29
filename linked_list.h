@@ -27,6 +27,6 @@ bool list_destroy(List* list);
 bool list_insert_after(List* list, ListElement* element, void* data);
 bool list_remove(List* list, ListElement* element, void* data);
 bool list_lookup(List* list, ListElement* element, void* data);
-int list_size(List* list) {return list->size;};
+int list_size(List* list) {return list->size;}
 
 #endif //DATASTRUCTURE_IN_C_LINKED_LIST_H
