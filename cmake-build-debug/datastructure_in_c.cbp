@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c">
+			<Option target="datastructure_in_c"/>
+		</Unit>
 		<Unit filename="/Users/seygene/Documents/CLion/datastructure_in_c/linked_list.h">
 			<Option target="datastructure_in_c"/>
 		</Unit>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/datastructure_in_c.dir/main.c.o"
+  "CMakeFiles/datastructure_in_c.dir/linked_list.c.o"
   "datastructure_in_c.pdb"
   "datastructure_in_c"
 )

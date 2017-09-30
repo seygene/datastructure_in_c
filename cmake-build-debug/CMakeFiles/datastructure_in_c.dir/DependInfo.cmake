@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c" "/Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/linked_list.c.o"
   "/Users/seygene/Documents/CLion/datastructure_in_c/main.c" "/Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

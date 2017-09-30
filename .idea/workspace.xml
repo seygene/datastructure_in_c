@@ -12,9 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cefc0a28-96ff-472c-ae8c-24af9837367e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/main.c.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linked_list.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linked_list.h" afterPath="$PROJECT_DIR$/linked_list.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/datastructure_in_c.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/datastructure_in_c.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +57,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linked_list.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linked_list.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked_list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="380">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#127#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linked_list.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linked_list.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="e#44#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +91,7 @@
       <list>
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/linked_list.h" />
+        <option value="$PROJECT_DIR$/linked_list.c" />
       </list>
     </option>
   </component>
@@ -161,7 +183,7 @@
       <workItem from="1506713846357" duration="622000" />
       <workItem from="1506715486828" duration="601000" />
       <workItem from="1506716676091" duration="219000" />
-      <workItem from="1506717139145" duration="593000" />
+      <workItem from="1506717139145" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="Start!">
       <created>1506713382966</created>
@@ -191,11 +213,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506717342090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add list_print">
+      <created>1506717783196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506717783196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2741000" />
+    <option name="totallyTimeSpent" value="3672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1378" height="837" extended-state="0" />
@@ -270,7 +299,8 @@
     <MESSAGE value="Linked List Header File" />
     <MESSAGE value="Real Start!!" />
     <MESSAGE value="add list_size" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list_size" />
+    <MESSAGE value="add list_print" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list_print" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,10 +439,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="380">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#127#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
