@@ -6,6 +6,15 @@
 #include "linked_list.h"
 
 bool list_init(List* list, void (*destroy)(void* data), void (*print)(void* data)) {
+    if (list == NULL) {
+        return false;
+    }
+    list->head = NULL;
+    list->tail = NULL;
+    list->size = 0;
+
+    list->destroy = destroy;
+    list->print = print;
     return true;
 }
 

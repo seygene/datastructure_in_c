@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seygene/Documents/CLion/datastructure_in_c
+CMAKE_SOURCE_DIR = /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/datastructure_in_c.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/datastructure_in_c.dir/flags.make
 
 CMakeFiles/datastructure_in_c.dir/main.c.o: CMakeFiles/datastructure_in_c.dir/flags.make
 CMakeFiles/datastructure_in_c.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/datastructure_in_c.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datastructure_in_c.dir/main.c.o   -c /Users/seygene/Documents/CLion/datastructure_in_c/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/datastructure_in_c.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datastructure_in_c.dir/main.c.o   -c /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/main.c
 
 CMakeFiles/datastructure_in_c.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/datastructure_in_c.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seygene/Documents/CLion/datastructure_in_c/main.c > CMakeFiles/datastructure_in_c.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/main.c > CMakeFiles/datastructure_in_c.dir/main.c.i
 
 CMakeFiles/datastructure_in_c.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/datastructure_in_c.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seygene/Documents/CLion/datastructure_in_c/main.c -o CMakeFiles/datastructure_in_c.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/main.c -o CMakeFiles/datastructure_in_c.dir/main.c.s
 
 CMakeFiles/datastructure_in_c.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/datastructure_in_c.dir/main.c.o.provides.build: CMakeFiles/datastruct
 
 CMakeFiles/datastructure_in_c.dir/linked_list.c.o: CMakeFiles/datastructure_in_c.dir/flags.make
 CMakeFiles/datastructure_in_c.dir/linked_list.c.o: ../linked_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/datastructure_in_c.dir/linked_list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datastructure_in_c.dir/linked_list.c.o   -c /Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/datastructure_in_c.dir/linked_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datastructure_in_c.dir/linked_list.c.o   -c /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/linked_list.c
 
 CMakeFiles/datastructure_in_c.dir/linked_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/datastructure_in_c.dir/linked_list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c > CMakeFiles/datastructure_in_c.dir/linked_list.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/linked_list.c > CMakeFiles/datastructure_in_c.dir/linked_list.c.i
 
 CMakeFiles/datastructure_in_c.dir/linked_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/datastructure_in_c.dir/linked_list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c -o CMakeFiles/datastructure_in_c.dir/linked_list.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/linked_list.c -o CMakeFiles/datastructure_in_c.dir/linked_list.c.s
 
 CMakeFiles/datastructure_in_c.dir/linked_list.c.o.requires:
 
@@ -117,7 +117,7 @@ datastructure_in_c: CMakeFiles/datastructure_in_c.dir/main.c.o
 datastructure_in_c: CMakeFiles/datastructure_in_c.dir/linked_list.c.o
 datastructure_in_c: CMakeFiles/datastructure_in_c.dir/build.make
 datastructure_in_c: CMakeFiles/datastructure_in_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable datastructure_in_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable datastructure_in_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/datastructure_in_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/datastructure_in_c.dir/clean:
 .PHONY : CMakeFiles/datastructure_in_c.dir/clean
 
 CMakeFiles/datastructure_in_c.dir/depend:
-	cd /Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seygene/Documents/CLion/datastructure_in_c /Users/seygene/Documents/CLion/datastructure_in_c /Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug /Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug /Users/seygene/Documents/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug /Users/seygene/Documents/Dropbox/Programming/C/CLion/datastructure_in_c/cmake-build-debug/CMakeFiles/datastructure_in_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/datastructure_in_c.dir/depend
 
