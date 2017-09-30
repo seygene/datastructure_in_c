@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/seygene/Documents/CLion/datastructure_in_c/linked_list.c
+stdlib.h
+-
+linked_list.h
+/Users/seygene/Documents/CLion/datastructure_in_c/linked_list.h
+
 /Users/seygene/Documents/CLion/datastructure_in_c/linked_list.h
 stdlib.h
 -
